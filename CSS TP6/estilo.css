@@ -1,0 +1,510 @@
+.formulario-busqueda {
+	margin-top: -45px;
+	margin-left: 7%;
+	margin-bottom: 80px;
+	
+}
+.cabecera-bloque {
+	margin-top: 25px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+header img{
+	margin-left: 47px;
+}
+
+header nav {
+	display: inline-block;
+	position: absolute;
+	right: -20px;
+	top: -11px;
+}
+
+header nav li{
+	display: inline-block;
+}
+
+
+.titulo-cabecera {
+	font-size: 39px;
+	font-family: "Raleway", sans-serif;
+	color: white;
+	position: absolute;
+	top: 100px;
+	left: 120px;
+
+}
+.texto-cabecera {
+	font-size: 19px;
+	font-family: "Open Sans", sans-serif;
+	color: white;
+	font-weight: lighter;
+	position: absolute;
+	top: 163px;
+	left: 120px;
+	line-height: 37px;
+}
+.fondo-cabecera {
+	background-image: url(indexbanner-bg3.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: -1;
+	height: 437px;
+	background-size: cover;
+}
+
+.titulo-cuerpo {
+	font-size: 16px;
+	font-family: "Raleway", sans-serif;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.texto-cuerpo {
+	font-size: 15px;
+	font-family: "Open Sans", sans-serif;
+	color: black;
+	font-weight: lighter;
+
+}
+
+.titulo-cuerpo-destacado {
+	font-size: 28px;
+	font-family: "Raleway", sans-serif;
+	color: black;
+	font-weight: bold;
+}
+
+.fondo-cuerpo {
+	background-image: url(pricing-bg.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	bottom: 80px;
+	z-index: -1;
+	height: 385px;
+	background-size: cover;
+}
+
+.precio {
+	font-size: 43px;
+	font-family: "Raleway", sans-serif;
+	color: black;
+	font-weight: bold;
+}
+
+tr {
+	font-size: 14px;
+	font-family: "Open Sans", sans-serif;
+	color: black;
+	font-weight: lighter;
+}
+
+.fondo-footer{
+	background-color: #233141;
+}
+
+.fondo-cierre {
+	background-color: #151d26;
+	position: relative;
+	padding: 20px;
+}
+
+.texto-footer {
+	text-align: center;
+	font-size: 36px;
+	font-family: "Raleway", sans-serif;
+	color: white;
+	font-weight: 200;
+	position: relative;
+	top: 90px;
+
+}
+
+.texto-cierre {
+	font-size: 14px;
+	font-family: "Open Sans", sans-serif;
+	color: white;
+	font-weight: lighter;
+	margin-left: 65px;
+}
+
+.cifra-destacada {
+	font-size: 43px;
+	font-family: "Open Sans", sans-serif;
+	color: #00aff1;
+	font-weight: bold;
+}
+
+.botones-cabecera{
+	
+}
+
+.boton-home{
+	font-size: 12px;
+	font-family: "Raleway", sans-serif;
+	color: black;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-decoration: none;
+	padding-right: 27px;
+}
+
+.boton-home:hover {
+	color: grey;
+}
+
+.boton-contact{
+	font-size: 12px;
+	font-family: "Raleway", sans-serif;
+	color: black;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-decoration: none;
+	margin-right: 85px;
+}
+
+.boton-contact:hover {
+	color:grey;
+}
+
+.botones-footer{
+	font-size: 14px;
+	font-family: "Raleway", sans-serif;
+	color: white;
+	text-transform: capitalize;
+}
+
+.barra-busqueda {
+	width:80%;
+	height: 90px;
+	border: none;
+	box-shadow: 0px 0px 3px #C8C8C8;
+
+}
+
+.boton-busqueda {
+	background-color: #00ABF0;
+	border: 1px solid #009DDD;
+	margin-left: -5px;
+	color: #FFF;
+	font-weight: bold;
+	height: 92px;
+	width: 13%;
+	font-size: 14.5px;
+	letter-spacing: 2px;
+}
+
+.lupa-search{
+	display:
+}
+
+.lupa {
+	margin-right: 13px;
+}
+
+.padre-circulos {
+	margin: auto 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.hijo-circulos h3 {
+	text-align: center;
+
+}
+
+.hijo-circulos p {
+	text-align: center;
+
+}
+
+.hijo-circulos img {
+	margin-left: 43px;
+}
+
+
+.seccion-asubtle {
+	text-align: center;
+	left: 42%;
+	margin-top: 70px;
+	margin-bottom: 40px;
+}
+
+.iphone-fila1{
+	text-align: right;
+	padding-top: 35px;
+	max-width: 33%;
+}
+
+.iphone-fila2{
+	padding-top: 35px;
+	max-width: 33%;
+}
+
+
+#bloque {
+	display: inline-block;
+}
+
+#espaciado{
+	margin: 57px;
+}
+
+.titulo-pricing-table {
+	text-align: center;
+	position: relative;
+	top: 145px;
+	
+}
+
+.bloque-precio1{
+	text-align: center;
+	background-color: white;
+	box-shadow: 0px 0px 10px #e3e3e3;
+	width: 225px;
+	height: 365px;
+}
+
+.bloque-precio2{
+	text-align: center;
+	background-color: white;
+	box-shadow: 0px 0px 10px #e3e3e3;
+	width: 225px;
+	height: 365px;
+}
+
+.bloque-precio3{
+	text-align: center;
+	background-color: white;
+	box-shadow: 0px 0px 10px #e3e3e3;
+	width: 225px;
+	height: 365px;
+}
+
+
+.bloque-precio4{
+	text-align: center;
+	background-color: white;
+	box-shadow: 0px 0px 10px #e3e3e3;
+	width: 225px;
+	height: 365px;
+}
+
+
+.bloquesprecios{
+	margin: auto 155px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	position: relative;
+	bottom: 154px;
+}
+
+.lista-footer {
+	display: inline-block;
+
+}
+
+footer nav {
+	display: inline-block;
+	position: absolute;
+	right: 95px;
+	top: 18px;
+}
+
+.iconos {
+	transition: 1.3s ease-in-out;
+
+}
+
+.iconos:hover {
+	transform: scale(1.25);
+}
+
+.titulo-seccion-iphone {
+	position: relative;
+}
+
+.filas-iphone-padre {
+	margin: auto 75px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+#iphone-bloque {
+	display: inline-block;
+}
+
+.tabla-precios{
+	text-align: center;
+	position: relative;
+	left: 78px;
+}
+
+.boton-precios{
+	width: 150px;
+	height: 40px;
+	background-color: #00abf0;
+	border: 0px;
+	color: white;
+	font-family: "Raleway", sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 2px;
+	border-radius: 5px;
+}
+
+.boton-footer-home{
+	text-decoration: none;
+	color: #D7D7D7;
+	font-size: 15px;
+	padding-right: 30px;
+
+}
+
+.boton-footer-contact{
+	text-decoration: none;
+	color: #D7D7D7;
+	font-size: 15px;
+
+}
+
+.bloque1-fila1{
+	padding-right: 65px;
+	position: relative;
+}
+
+.circulos-fila1-iphone{
+	position: absolute;
+	right: 1px;
+}
+
+.bloque2-fila2{
+	padding-left: 65px;
+	position: relative;
+}
+
+.circulos-fila2-iphone{
+	position: absolute;
+	left: 1px;
+}
+
+#simbolo-dinero{
+	font-size: 19px;
+	bottom: 11px;
+	position: relative;
+}
+
+.imagen-iphone{
+	width: 90%;
+	margin: 0px auto;
+	display: block;
+}
+
+@media screen and (max-width: 980px) {
+	header nav{
+		right: 27%;
+	}
+
+	header img {
+		margin-left: -18px;
+	}
+
+	.fondo-cabecera{
+		height: 390px;
+	}
+
+	.titulo-cabecera{
+		left: 20px;
+	}
+
+	.texto-cabecera{
+		left: 20px;
+	}
+
+	.boton-busqueda{
+		width: 14%;
+	}
+
+	.formulario-busqueda{
+		margin-left: 2%;
+
+	}
+
+	.barra-busqueda{
+		width: 84%;
+	}
+
+	.hijo-circulos{
+		width: 50%;
+		margin-bottom: 35px;
+	}
+
+	.hijo-circulos img{
+		margin: auto 38%;
+	}
+
+	.bloque-imagen-iphone{
+		
+	}
+
+
+	.iphone-fila1{
+		width: 25%;
+	}
+
+	.iphone-fila2{
+		width: 25%;
+	}
+
+	.fondo-cuerpo{
+		bottom: 10px;
+		height: 280px;
+	}
+
+	.bloquesprecios{
+		margin: inherit;
+		top: 25px;
+	}
+
+	.bloque-precio1{
+		width: 47%;
+		margin-bottom: 30px;
+	}
+
+	.bloque-precio2{
+		width: 47%;
+		margin-bottom: 30px;
+	}
+
+	.bloque-precio3{
+		width: 47%;
+		margin-bottom: 95px;
+	}
+
+	.bloque-precio4{
+		width: 47%;
+		margin-bottom: 95px;
+	}
+
+	.tabla-precios{
+		left: 194px;
+	}
+
+	.texto-footer{
+		font-size: 30px;
+	}
+}
+
