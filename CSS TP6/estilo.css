@@ -18,9 +18,7 @@ header img{
 
 header nav {
 	display: inline-block;
-	position: absolute;
-	right: -20px;
-	top: -11px;
+	margin-left: 58%;
 }
 
 header nav li{
@@ -105,6 +103,7 @@ tr {
 
 .fondo-footer{
 	background-color: #233141;
+	height: 246px;
 }
 
 .fondo-cierre {
@@ -115,7 +114,7 @@ tr {
 
 .texto-footer {
 	text-align: center;
-	font-size: 36px;
+	font-size: 32px;
 	font-family: "Raleway", sans-serif;
 	color: white;
 	font-weight: 200;
@@ -166,7 +165,6 @@ tr {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	text-decoration: none;
-	margin-right: 85px;
 }
 
 .boton-contact:hover {
@@ -185,6 +183,7 @@ tr {
 	height: 90px;
 	border: none;
 	box-shadow: 0px 0px 3px #C8C8C8;
+	padding-left: 
 
 }
 
@@ -244,6 +243,10 @@ tr {
 	max-width: 33%;
 }
 
+.bloque-imagen-iphone{
+	max-width: 33%;
+}
+
 .iphone-fila2{
 	padding-top: 35px;
 	max-width: 33%;
@@ -265,42 +268,57 @@ tr {
 	
 }
 
+.linea-gris{
+	background-color: #F3F3F3;
+	width: 80%;
+	height: 1.1px;
+	margin: auto 10%;
+}
+
 .bloque-precio1{
+	position: relative;
 	text-align: center;
 	background-color: white;
 	box-shadow: 0px 0px 10px #e3e3e3;
-	width: 225px;
-	height: 365px;
+	width: 23%;
+	height: 400px;
+	padding-top: 50px;
 }
 
 .bloque-precio2{
+	position: relative;
 	text-align: center;
 	background-color: white;
 	box-shadow: 0px 0px 10px #e3e3e3;
-	width: 225px;
-	height: 365px;
+	width: 23%;
+	height: 400px;
+	padding-top: 50px;
 }
 
 .bloque-precio3{
+	position: relative;
 	text-align: center;
 	background-color: white;
 	box-shadow: 0px 0px 10px #e3e3e3;
-	width: 225px;
-	height: 365px;
+	width: 23%;
+	height: 400px;
+	padding-top: 50px;
 }
 
 
 .bloque-precio4{
+	position: relative;
 	text-align: center;
 	background-color: white;
 	box-shadow: 0px 0px 10px #e3e3e3;
-	width: 225px;
-	height: 365px;
+	width: 23%;
+	height: 400px;
+	padding-top: 50px;
 }
 
 
 .bloquesprecios{
-	margin: auto 155px;
+	margin: auto 55px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -309,16 +327,60 @@ tr {
 	bottom: 154px;
 }
 
+.sometext-tablaprecios{
+	display: inline-block;
+	font-family: "Open sans", sans-serif;
+    font-weight: 400;
+}
+
+.numero1-tablaprecios{
+	display: inline-block;
+	    margin-left: 48px;
+}
+
+.fila-precio{
+
+}
+
+#celeste {
+	color: #7ae7ff;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#amarillo {
+	color: #f9d423;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#naranjo{
+	color: #ff9368;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#rojo{
+	color: #f75f40;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
 .lista-footer {
 	display: inline-block;
 
 }
 
 footer nav {
-	display: inline-block;
 	position: absolute;
-	right: 95px;
-	top: 18px;
+	left: 80%;
+	bottom: 21%;
 }
 
 .iconos {
@@ -347,13 +409,11 @@ footer nav {
 }
 
 .tabla-precios{
-	text-align: center;
-	position: relative;
-	left: 78px;
+	margin: 9px auto;
 }
 
 .boton-precios{
-	width: 150px;
+	width: 82%;
 	height: 40px;
 	background-color: #00abf0;
 	border: 0px;
@@ -364,6 +424,7 @@ footer nav {
 	font-size: 12px;
 	letter-spacing: 2px;
 	border-radius: 5px;
+	margin-top: 30px;
 }
 
 .boton-footer-home{
@@ -414,8 +475,14 @@ footer nav {
 }
 
 @media screen and (max-width: 980px) {
+
+	.cabecera-bloque{
+		margin: 31px 30px 25px;
+		position: relative;
+	}
+
 	header nav{
-		right: 27%;
+		margin-left: 25%;
 	}
 
 	header img {
@@ -435,7 +502,7 @@ footer nav {
 	}
 
 	.boton-busqueda{
-		width: 14%;
+		width: 15%;
 	}
 
 	.formulario-busqueda{
@@ -500,11 +567,292 @@ footer nav {
 	}
 
 	.tabla-precios{
-		left: 194px;
+		left: 218px;
+	}
+
+	.fila-precio{
+
+
+	}
+
+	.sometext-tablaprecios{
+		margin-left: 137px;
+	}
+
+	.numero1-tablaprecios{
+		position: static;
+		margin-left: 139px;
 	}
 
 	.texto-footer{
 		font-size: 30px;
 	}
+
+	.texto-cierre{
+		text-align: center;
+		margin: 0px 0px 0px;
+	}
+
+	.fondo-cierre{
+		padding: 54px;
+	}
+
+	footer nav{
+		position: static;
+		left: 0px;
+		bottom: 0px;
+	}
+
+	footer ul{
+		padding: 0px;
+    	text-align: center;
+}
+	}
 }
 
+@media screen and (max-width: 852px){
+	.boton-busqueda{
+		width: 15%;
+	}
+}
+
+@media screen and (max-width: 795px){
+	.boton-busqueda{
+		width: 16%;
+	}
+	.barra-busqueda{
+		width: 82%
+	}
+}
+
+@media screen and (max-width: 770px){
+
+	.fondo-cabecera{
+		width: 0%;
+		height: 0%;
+	}
+
+	.cabecera-bloque{
+		margin: 31px 30px 135px;
+	}
+
+	header img{
+		display: block;
+		position: static;
+		margin: 0px auto;
+	}
+
+	header nav{
+		display: block;
+		position: static;
+		margin: 0 auto;
+		width: 100px;
+	}
+
+	.botones-cabecera{
+		display:block;
+	}
+
+	.boton-home{
+		padding-right: 0px;
+		padding-left: 10px;
+	}
+
+	.padre-circulos{
+		margin: auto 50px;
+	}
+
+	.hijo-circulos img{
+		margin: auto 35%;
+	}
+
+	.iphone-fila1{
+		width: 100%;
+		max-width: initial;
+		text-align: left;
+		padding-left: 42px;
+		left: -75px;
+	}
+
+	.bloque-imagen-iphone{
+		max-width: initial; 
+	}
+
+	.iphone-fila2{
+		width: 100%;
+		max-width: initial;
+		margin-left: -75px;
+	}
+
+	.circulos-fila1-iphone{
+		left: -75px;
+
+	}
+
+	.bloque2-fila2{
+		padding-left: 71px;
+	}
+
+	.fondo-cuerpo{
+		height: 220px;
+	}
+
+	.titulo-pricing-table{
+		top: 80px;
+	}
+
+	.titulo-cuerpo-destacado{
+		font-size: 40px;
+	}
+
+	.numero1-tablaprecios{
+		margin-left: 95px;
+	}
+
+	.sometext-tablaprecios{
+		margin-left: 109px;
+	}
+
+	.fondo-footer{
+		height: 275px;
+	}
+
+	.texto-footer{
+		font-size: 30px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	footer nav{
+		left: 37%;
+	}
+}
+
+@media screen and (max-width: 746px){
+	.barra-busqueda{
+		width: 78%;
+	}
+
+	.boton-busqueda{
+		width: 19%;
+	}
+
+}
+
+@media screen and (max-width: 628px){
+	.barra-busqueda{
+		width: 75%;
+	}
+	.boton-busqueda{
+		width: 22%;
+	}
+
+	.numero1-tablaprecios{
+		margin-left: 70px;
+	}
+
+	.sometext-tablaprecios{
+		margin-left: 81px;
+	}
+}
+
+@media screen and (max-width: 580px){
+
+	.cabecera-bloque{
+		margin: 31px 30px 81px;
+	}
+
+	.botones-cabecera{
+		margin-bottom: 12px;
+	}
+
+	header nav{
+		position: static;
+	    display: block;
+	    width: 100px;
+	    margin: 0px auto;
+
+	}
+
+	.barra-busqueda{
+		height: 77px;
+		width: 82%;
+	}
+
+	.boton-busqueda{
+		height: 82px;
+		width: 14%;
+		font-size: 12.5px;
+	}
+
+	.lupa{
+		width: 0%;
+		height: 0%;
+		margin: 0%;
+	}
+
+	.formulario-busqueda{
+		margin-top: -20px;
+	}
+
+	.hijo-circulos{
+		width: 100%;
+	}
+	
+
+	.hijo-circulos img{
+		margin: auto 40%;
+	}
+
+	.texto-cuerpo{
+		display: inline-block;
+	}
+
+	.contenedor-texto-cuerpo{
+		padding-left: 50px
+	}
+
+	.seccion-asubtle{
+		margin-top: 35px;
+		margin-bottom: 0px;
+	}
+
+	.iphone-fila1{
+		margin-bottom: 30px;
+	}
+
+	.texto-footer{
+		font-size: 20px;
+		top: 35px;
+	}
+
+	.fondo-footer{
+		height: 153px;
+	}
+
+	.cifra-destacada{
+		font-size: 29px;
+	}
+}
+
+@media screen and (max-width: 575px){
+
+	.barra-busqueda{
+		width: 80%;
+	}
+
+	.boton-busqueda{
+		width: 17%;
+	}
+}
+
+@media screen and (max-width: 474px){
+
+	.barra-busqueda{
+		width: 77%;
+	}
+
+	.boton-busqueda{
+		width: 19%;
+	}
+}
